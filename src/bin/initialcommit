@@ -1,0 +1,8 @@
+#!/bin/bash
+
+touch .gitkeep
+git add .gitkeep
+git commit -m "Initial commit"
+git tag v0.0.0
+git branch develop
+git checkout develop

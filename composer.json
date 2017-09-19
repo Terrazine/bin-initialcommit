@@ -1,0 +1,21 @@
+{
+    "name": "terrazine/bin-initialcommit",
+    "description": "Plant the seed for a healthy git tree.",
+    "type": "binary",
+    "license": "inherit",
+    "authors": [
+        {
+            "name": "Patrick 'Quezler' Mounier",
+            "email": "Quezler@me.com"
+        }
+    ],
+    "require": {},
+    "bin": [
+        "src/bin/initialcommit"
+    ],
+    "extra": {
+        "terrazine": {
+            "human": "@see terrazine/slayn"
+        }
+    }
+}
